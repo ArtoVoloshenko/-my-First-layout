@@ -1,0 +1,14 @@
+@mixin flexbtw {
+	display: flex;
+	justify-content: space-between;
+}
+@mixin marginTopBottom($sizeTop, $sizeBottom) {
+	margin-top: $sizeTop;
+	margin-bottom: $sizeBottom;
+}
+@mixin text($size, $color, $sizeH) {
+	font-size: $size;
+	color: $color;
+	line-height: $sizeH;
+	text-transform: uppercase;
+}
